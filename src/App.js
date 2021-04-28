@@ -1,4 +1,7 @@
 import React from "react";
+import HeaderDate from "./HeaderDate";
+import SearchEngine from "./SearchEngine";
+
 import './App.css';
 
 function App() {
@@ -6,6 +9,8 @@ function App() {
     <div className="App">
      <div className="container">
         <div className="WeatherApp">
+          <HeaderDate />
+          <SearchEngine />
           
                    
 
