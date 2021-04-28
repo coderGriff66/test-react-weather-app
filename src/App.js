@@ -5,8 +5,9 @@ import TodaysOutlook from "./TodaysOutlook";
 import ForecastPlanner from "./ForecastPlanner";
 
 import './App.css';
+import "./styles.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
      <div className="container">
@@ -39,4 +40,4 @@ function App() {
   );
 }
 
-export default App;
+ 
