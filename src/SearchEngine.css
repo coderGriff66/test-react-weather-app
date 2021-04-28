@@ -1,0 +1,19 @@
+.SearchEngine h1 {
+  color: floralwhite;
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+}
+
+.SearchEngine CurrentButton {
+  background-color: rgb(21, 124, 184);
+  color: white;
+  padding: 5px 30px;
+  border-radius: 4px;
+}
+
+.SearchEngine CurrentButton:hover {
+  background: rgb(95, 169, 212);
+  color: black;
+  cursor: pointer;
+}

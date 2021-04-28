@@ -6,7 +6,7 @@ export default function SearchEngine() {
     <form>
           <div className="row">
             <div className="col-6">
-              <input type="Search" placeholder="Enter City Name" className="form-control" autofocus="on" autocomplete="off"/>
+              <input type="Search" placeholder="Enter City Name" className="form-control shadow sm" autofocus="on" autocomplete="off"/>
             </div>
                <div className="col-3">
                 <input type="submit" value="Search" className="btn btn-success"/>
