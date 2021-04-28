@@ -8,7 +8,7 @@ export default function WeatherConditions(props) {
             <div className="Card Leftside">
               <h2 className="text-capitalize">{props.data.description}</h2>
                 <div className="clearfix">
-                  <img src="/" alt={props.data.description} className="float-left"/>
+                  <img src={props.data.iconUrl} alt={props.data.description} className="float-left"/>
                     <span ClassName="temperature">{Math.round(props.data.temperature)}</span>
                       <span className="unit">°C</span>
                 </div>
