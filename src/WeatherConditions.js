@@ -1,4 +1,5 @@
 import React from "react";
+import WxIcons from "./WxIcons";
 
 export default function WeatherConditions(props) {
   return (
@@ -8,9 +9,13 @@ export default function WeatherConditions(props) {
             <div className="Card Leftside">
               <h2 className="text-capitalize">{props.data.description}</h2>
                 <div className="clearfix">
-                  <img src={props.data.iconUrl} alt={props.data.description} className="float-left"/>
-                    <span ClassName="temperature">{Math.round(props.data.temperature)}</span>
-                      <span className="unit">°C</span>
+                  <div className="float-left">
+                    <WxIcons code={props.data.icon} />
+                  </div>
+                  <div className="float-left">
+                       <span ClassName="temperature">{Math.round(props.data.temperature)}</span>
+                       <span className="unit">°C</span>
+                  </div>
                 </div>
             </div>
           </div>
