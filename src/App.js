@@ -1,6 +1,7 @@
 import React from "react";
 import HeaderDate from "./HeaderDate";
 import SearchEngine from "./SearchEngine";
+import WeatherConditions from "./WeatherConditions";
 import TodaysOutlook from "./TodaysOutlook";
 import ForecastPlanner from "./ForecastPlanner";
 
@@ -14,6 +15,7 @@ export default function App() {
         <div className="WeatherApp">
           <HeaderDate />
           <SearchEngine defaultCity="Detroit" />
+          <WeatherConditions />
             <div>
               <h4>DAY PLANNER</h4>
             </div>
