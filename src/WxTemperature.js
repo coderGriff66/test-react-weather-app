@@ -25,7 +25,7 @@ export default function WxTemperature(props) {
 
 }else {
   let fahrenheit = (props.celsius * 9 / 5) + 32;
-  
+
     return (
       <div className="WxTemperature">
         <span ClassName="temperature">{Math.round(fahrenheit)}</span>
