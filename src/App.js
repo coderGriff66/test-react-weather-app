@@ -1,7 +1,7 @@
 import React from "react";
 import HeaderDate from "./HeaderDate";
 import SearchEngine from "./SearchEngine";
-import TodaysOutlook from "./TodaysOutlook";
+
 import ForecastPlanner from "./ForecastPlanner";
 
 import './App.css';
@@ -18,12 +18,7 @@ export default function App() {
             <div>
               <h4>DAY PLANNER</h4>
             </div>
-         <TodaysOutlook className="Outlook"/>
-              <div className="row"> </div>
-              <div className="col-3"> </div>
-              <div>
-              <h4>4-DAY FORECAST</h4>
-            </div>
+            
          <ForecastPlanner className="Planner"/>
               <div className="row"> </div>
               <div className="col-3"> </div>
