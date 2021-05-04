@@ -2,6 +2,8 @@ import React from "react";
 import WxIcons from "./WxIcons";
 import WxTemperature from "./WxTemperature";
 
+import "./WeatherConditions.css";
+
 export default function WeatherConditions(props) {
   return (
     <div className="WeatherConditions">
