@@ -11,7 +11,7 @@ export default function WeatherConditions(props) {
               <h2 className="text-capitalize">{props.data.description}</h2>
                 <div className="clearfix">
                   <div className="float-left">
-                    <WxIcons code={props.data.icon} />
+                    <WxIcons code={props.data.icon} size={50} />
                   </div>
                   <div className="float-left">
                     <WxTemperature celsius={props.data.temperature} />

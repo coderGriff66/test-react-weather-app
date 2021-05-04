@@ -1,16 +1,15 @@
 import React from "react";
+import WxIcons from "./WxIcons";
 
-export default function TodaysOutlook() {
+export default function TodaysOutlook(props) {
   return (
-    <div className="Outlook">
+    <div className="TodaysOutlook">
       <div className="card">
-        <h5 className="title3">6 am</h5>
+        <h5 className="TodaysOutlook-time">6 am</h5>
         <div className="card-body3">
-          <i className="fas fa-sun dayone"></i>
-          <p className="card-text3">
-            <strong>56°</strong>
-          </p>
-        </div>
+          <WxIcons code={props.data.icon} size={35} />
+              <span className="TodaysOutlook-maxTemp"><strong>67°</strong></span>
+          </div>
       </div>
     </div>
   );

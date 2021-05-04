@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
 import WeatherConditions from "./WeatherConditions";
+import TodaysOutlook from "./TodaysOutlook";
+import ForecastPlanner from "./ForecastPlanner";
 
 
 export default function SearchEngine(props) {
@@ -10,6 +12,7 @@ export default function SearchEngine(props) {
   function handleResponse(response) {
     setWeatherData({
       ready: true,
+      coordinates: response.data.coord,
       date: new Date(response.data.dt * 1000),
       icon: response.data.weather[0].icon,
       temperature: response.data.main.temp,
@@ -61,6 +64,8 @@ export default function SearchEngine(props) {
         <h1>{weatherData.city}</h1>
       </div>
       <WeatherConditions data={weatherData} />
+      <TodaysOutlook coordinates={weatherData.coordinates} />
+      <ForecastPlanner coordinates={weatherData.coordinates} />
     </div>
       
     );    
