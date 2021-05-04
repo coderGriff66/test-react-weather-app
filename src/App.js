@@ -2,7 +2,7 @@ import React from "react";
 import HeaderDate from "./HeaderDate";
 import SearchEngine from "./SearchEngine";
 
-import ForecastPlanner from "./ForecastPlanner";
+
 
 import './App.css';
 import "./styles.css";
@@ -15,16 +15,7 @@ export default function App() {
           <HeaderDate />
           <SearchEngine defaultCity="Detroit" />
           
-            <div>
-              <h4>DAY PLANNER</h4>
-            </div>
-            
-         <ForecastPlanner className="Planner"/>
-              <div className="row"> </div>
-              <div className="col-3"> </div>
-               
-                
-                   
+                  
 
           <footer>
             This project coded by Jennifer Griffin and is 

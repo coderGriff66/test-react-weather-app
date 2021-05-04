@@ -50,13 +50,13 @@ export default function SearchEngine(props) {
     <form onSubmit={handleSubmit}>
           <div className="row">
             <div className="col-6">
-              <input type="Search" placeholder="Enter City Name" className="form-control shadow sm" autofocus="on" autocomplete="off" onChange={handleCity}/>
+              <input type="Search" placeholder="Enter City Name" className="form-control shadow sm" autoFocus="on" autoComplete="off" onChange={handleCity}/>
             </div>
                <div className="col-3">
                 <input type="submit" value="Search" className="btn btn-success"/>
                </div>
                   <div className="col-3">
-                    <button className="CurrentButton">CURRENT</button>
+                    <button className="btn btn-warning">CURRENT</button>
                   </div>
           </div>
     </form>
@@ -64,7 +64,9 @@ export default function SearchEngine(props) {
         <h1>{weatherData.city}</h1>
       </div>
       <WeatherConditions data={weatherData} />
-   
+        <div className="SearchEngine"><h4>HOURLY OUTLOOK</h4></div>
+
+        <div><h4>5-DAY PLANNER</h4></div>
       <ForecastPlanner coordinates={weatherData.coordinates} />
     </div>
       

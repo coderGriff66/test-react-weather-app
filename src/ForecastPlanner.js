@@ -16,9 +16,12 @@ export default function ForecastPlanner(props) {
   if (loaded) {
     return (
     <div className="ForecastPlanner">
-       <DayPlanner data={forecast[0]} />
+      <div className="row"> 
+        <div className="col-3"> 
+          <DayPlanner data={forecast[0]} />
+        </div>
       </div>
-    
+    </div>
     );
       
   } else {

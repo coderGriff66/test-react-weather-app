@@ -9,7 +9,15 @@
   text-transform: capitalize;
 }
 
-.HeaderDate li {
+.HeaderDate-date {
+  color: floralwhite;
+  font-weight: bold;
+  list-style-type: none;
+  text-align: right;
+  padding-right: 15px;
+  padding-top: 35px;
+}
+.HeaderDate-time {
   color: floralwhite;
   font-weight: bold;
   list-style-type: none;

@@ -18,7 +18,7 @@ export default function WxTemperature(props) {
 
     return(
       <div className="WxTemperature">
-        <span ClassName="temperature">{Math.round(props.celsius)}</span>
+        <span className="temperature">{Math.round(props.celsius)}</span>
         <span className="unit">°C | {" "}<a href="/" onClick={toFahrenheit}>°F</a></span>
       </div>
    );

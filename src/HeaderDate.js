@@ -42,14 +42,14 @@ export default function HeaderDate() {
   return(
     <div className="row">
           <div className="col-6">
-            <h3 className="Header">Your Weather Forecast</h3>
+            <h3 className="HeaderDate">Your Weather Forecast</h3>
           </div>
             <div className="col-6">
-              <ul className="Today">
-                <li>
+              <ul>
+                <li className="HeaderDate-date">
                   <strong>{day}, {month} {date}, {year}</strong>
                 </li>
-                <li>
+                <li className="HeaderDate-time">
                   <strong>{hours}:{minutes}</strong>
                 </li>
               </ul>
