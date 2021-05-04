@@ -1,5 +1,6 @@
-.Conditions li {
+.WeatherConditions li {
   list-style-type: none;
-  font-size: 55px;
+  font-size: 22px;
+  padding-right: 10px;
 
 }

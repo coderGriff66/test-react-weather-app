@@ -13,3 +13,7 @@
 .CurrentButton:hover {
   cursor: pointer;
 }
+
+.SearchEngine h4 {
+  text-align: center;
+}

@@ -66,7 +66,7 @@ export default function SearchEngine(props) {
       <WeatherConditions data={weatherData} />
         <div className="SearchEngine"><h4>HOURLY OUTLOOK</h4></div>
 
-        <div><h4>5-DAY PLANNER</h4></div>
+        <div className="SearchEngine"><h4>5-DAY PLANNER</h4></div>
       <ForecastPlanner coordinates={weatherData.coordinates} />
     </div>
       

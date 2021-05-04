@@ -45,11 +45,11 @@ export default function HeaderDate() {
             <h3 className="HeaderDate">Your Weather Forecast</h3>
           </div>
             <div className="col-6">
-              <ul>
-                <li className="HeaderDate-date">
+              <ul className="HeaderDate">
+                <li>
                   <strong>{day}, {month} {date}, {year}</strong>
                 </li>
-                <li className="HeaderDate-time">
+                <li>
                   <strong>{hours}:{minutes}</strong>
                 </li>
               </ul>

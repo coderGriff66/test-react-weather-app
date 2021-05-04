@@ -8,7 +8,7 @@ export default function WeatherConditions(props) {
   return (
     <div className="WeatherConditions">
       <div className="row">
-          <div className="col-7">
+          <div className="col-6">
             <div className="Card Leftside">
               <h2 className="text-capitalize">{props.data.description}</h2>
                 <div className="clearfix">
