@@ -4,6 +4,8 @@
   border: rgb(12, 0, 124) solid 2px;
   background: rgba(204, 227, 240, 0.2);
   border-radius: 4px;
+  padding: 10px;
+  margin-left: 20px;
 }
 
 .DayPlanner-temps {

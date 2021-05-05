@@ -16,9 +16,9 @@ export default function App() {
           <SearchEngine defaultCity="Detroit" />
           
                   
-
+          <br />
           <footer>
-            This project coded by Jennifer Griffin and is 
+            <strong>This project coded by Jennifer Griffin and is</strong>
             <a href="https://github.com/coderGriff66/test-react-weather-app" target="_blank" rel="noreferrer"> open-sourced on GitHub</a>
           </footer>
         </div>

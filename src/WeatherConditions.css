@@ -5,13 +5,23 @@
 
 }
 
-.WeatherConditions .Card .Leftside {
+.WeatherConditions .Card.Leftside {
+  background: rgba(203, 229, 255, 0.3);
   box-shadow: 8px 8px 8px rgba(12, 0, 124, 0.3);
   border: rgb(12, 0, 124) solid 2px;
   border-radius: 4px;
-}
-
-.Conditions .Rightside {
-  background: rgba(203, 229, 255, 0.3);
+  padding: 20px;
   border: none;
+  margin-left: 20px;
 }
+ 
+.Card.Rightside {
+  box-shadow: 8px 8px 8px rgba(12, 0, 124, 0.3);
+  background: rgba(203, 229, 255, 0.3);
+  border: rgb(12, 0, 124) solid 2px;
+  border-radius: 4px;
+  padding-top: 20px;
+  padding-left: 13px;
+  padding-bottom: 13px;
+  margin-right: 20px;
+} 
