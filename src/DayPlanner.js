@@ -30,7 +30,7 @@ export default function DayPlanner(props) {
 
   return (
 
-  <div className="card">
+  <div className="PlannerPanels">
           <h5 className="DayPlanner-day">{day()}</h5>
             <div>
             <WxIcons code={props.data.weather[0].icon} size={45} />
