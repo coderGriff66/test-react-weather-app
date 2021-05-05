@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import WeatherConditions from "./WeatherConditions";
-
+import DailyOutlook from "./DailyOutlook";
 import ForecastPlanner from "./ForecastPlanner";
 import "./SearchEngine.css";
 
@@ -66,7 +66,7 @@ export default function SearchEngine(props) {
       </div>
       <WeatherConditions data={weatherData} />
         <div className="SearchEngine"><h4>HOURLY OUTLOOK</h4></div>
-
+      <DailyOutlook />
         <div className="SearchEngine"><h4>5-DAY PLANNER</h4></div>
       <ForecastPlanner coordinates={weatherData.coordinates} />
     </div>
