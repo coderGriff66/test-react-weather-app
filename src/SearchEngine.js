@@ -3,6 +3,7 @@ import axios from "axios";
 import WeatherConditions from "./WeatherConditions";
 
 import ForecastPlanner from "./ForecastPlanner";
+import "./SearchEngine.css";
 
 
 export default function SearchEngine(props) {

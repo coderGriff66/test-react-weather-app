@@ -1,6 +1,7 @@
 import React from "react";
 import WxIcons from "./WxIcons";
 import WxTemperature from "./WxTemperature";
+import "./WeatherConditions.css";
 
 import "./WeatherConditions.css";
 

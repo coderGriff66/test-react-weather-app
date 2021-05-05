@@ -1,4 +1,5 @@
 import React from "react";
+import "./HeaderDate.css";
 
 export default function HeaderDate() {
   let days = [

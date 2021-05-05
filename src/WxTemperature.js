@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./WxTemperature.css";
 
 export default function WxTemperature(props) {
   const [unit, setUnit] = useState("celsius");
