@@ -23,11 +23,13 @@ export default function DayPlanner(props) {
 
   <div className="card">
           <h5 className="DayPlanner-day">{day()}</h5>
-            <WxIcons code={props.data.weather[0].icon} size={35} />
+            <div>
+            <WxIcons code={props.data.weather[0].icon} size={45} />
+            </div>
               <div className="DayPlanner-temps">
                 <span className="maxTemp"><strong>{Math.round(props.data.temp.max)}°</strong></span>
               
-                  <span className="minTemp"><em>{Math.round(props.data.temp.min)}°</em></span>
+                  <span className="minTemp">{Math.round(props.data.temp.min)}°</span>
                 </div>
         </div>
   );

@@ -1,3 +1,8 @@
+.SearchEngine form {
+  padding-top: 15px;
+}
+
+
 .SearchEngine h1 {
   color: floralwhite;
   padding-top: 10px;
@@ -15,5 +20,14 @@
 }
 
 .SearchEngine h4 {
+  background-color: rgba(0, 66, 105, 0.3);
+  box-shadow: inset 2px 2px 1px gray;
+  color: floralwhite;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 10px;
   text-align: center;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }

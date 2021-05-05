@@ -10,12 +10,12 @@ body {
   /*background: radial-gradient(#f1f1b9, #f1e83b, #ffe37c, #f3d47f, #fffcd3);*/
   border: rgb(192, 117, 12) solid 6px;
   border-radius: 8px;
-  max-width: 750px;
+  max-width: 700px;
   max-height: 100%;
   margin: auto;
 }
 
 .App .WeatherApp {
   margin: auto;
-  max-width: 700px;
+  max-width: 650px;
 }

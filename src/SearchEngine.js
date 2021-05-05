@@ -54,7 +54,7 @@ export default function SearchEngine(props) {
               <input type="Search" placeholder="Enter City Name" className="form-control shadow sm" autoFocus="on" autoComplete="off" onChange={handleCity}/>
             </div>
                <div className="col-3">
-                <input type="submit" value="Search" className="btn btn-success"/>
+                <input type="submit" value="Search" className="btn btn-success" width="100%" />
                </div>
                   <div className="col-3">
                     <button className="btn btn-warning">CURRENT</button>
