@@ -18,6 +18,15 @@ export default function DayPlanner(props) {
     
     return days[day];
   }
+  function MaxTemp() {
+    let temperature = Math.round(props.data.temp.max);
+    return`${temperature}°`;
+  }
+
+  function MinTemp() {
+    let temperature = Math.round(props.data.temp.min);
+    return `${temperature}°`;
+  }
 
   return (
 
@@ -27,9 +36,9 @@ export default function DayPlanner(props) {
             <WxIcons code={props.data.weather[0].icon} size={45} />
             </div>
               <div className="DayPlanner-temps">
-                <span className="maxTemp"><strong>{Math.round(props.data.temp.max)}°</strong></span>
+                <span className="maxTemp"><strong>{MaxTemp()}</strong></span>
               
-                  <span className="minTemp">{Math.round(props.data.temp.min)}°</span>
+                  <span className="minTemp">{MinTemp()}</span>
                 </div>
         </div>
   );
