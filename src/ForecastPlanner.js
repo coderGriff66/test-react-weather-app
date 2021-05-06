@@ -29,6 +29,8 @@ useEffect(() => {
           <DayPlanner data={dailyForecast} />
         </div>
         );
+        } else {
+          return null;
         }
       })}
        </div>     
