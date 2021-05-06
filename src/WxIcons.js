@@ -26,7 +26,7 @@ export default function WxIcons(props) {
     return (
     <ReactAnimatedWeather
       icon={codeMapping[props.code]}
-      color="#ffbf00"
+      color="#ffcd44"
       size={props.size}
       animate={true}
   />

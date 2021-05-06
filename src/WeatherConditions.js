@@ -3,7 +3,6 @@ import WxIcons from "./WxIcons";
 import WxTemperature from "./WxTemperature";
 import "./WeatherConditions.css";
 
-import "./WeatherConditions.css";
 
 export default function WeatherConditions(props) {
   return (

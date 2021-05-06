@@ -41,6 +41,7 @@ export default function HeaderDate() {
    } 
 
   return(
+    <div className="HeaderDate">
     <div className="row">
           <div className="col-6">
             <h3 className="HeaderDate">Your Weather Forecast</h3>
@@ -56,5 +57,6 @@ export default function HeaderDate() {
               </ul>
             </div>
           </div>
+        </div>
   );
 }

@@ -2,12 +2,12 @@
  padding-left: 25px;
 }
 
-
 .SearchEngine h1 {
   color: floralwhite;
   padding-top: 10px;
   padding-left: 25px;
   padding-bottom: 15px;
+  text-shadow: 2px 3px rgb(7, 7, 7);
 }
 
 .CurrentButton {
@@ -21,6 +21,7 @@
 
 .SearchEngine h4 {
   background-color: rgba(0, 66, 105, 0.3);
+  text-shadow: 2px 2px rgb(7, 7, 7);
   box-shadow: inset 2px 2px 1px gray;
   color: floralwhite;
   font-size: 20px;
@@ -28,6 +29,6 @@
   border-radius: 10px;
   text-align: center;
   padding: 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin: 20px 20px;
+  
 }
